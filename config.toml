@@ -169,18 +169,18 @@ endpoint =	"Parlez-nous de votre projet et obtenez un devis gratuit dès [mainte
   description = ""
   weight = "3"
 
-  [[languages.fr.menu.main]]
-  url    = "http://localhost:1313/"
+  [[languages.es.menu.main]]
+  url    = "https://www.ururimi.com/"
   name   = "EN"
   weight = 30
 
-  [[languages.fr.menu.main]]
-  url    = "http://localhost:1313/fr"
+  [[languages.es.menu.main]]
+  url    = "https://www.ururimi.com/fr"
   name   = "FR"
   weight = 40
 
-  [[languages.fr.menu.main]]
-  url    = "http://localhost:1313/es"
+  [[languages.es.menu.main]]
+  url    = "https://www.ururimi.com/es"
   name   = "ES"
   weight = 50
 
