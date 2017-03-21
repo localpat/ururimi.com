@@ -21,7 +21,7 @@ subtitle = "*language"
 # About section
 [params.about]
 title = "About ururimi"
-description = "ururimi is Kinyarwanda for language.<br>It is also our word for precision, empowerment and one of a kind-ness.<br>Because one word is all we need to tell you how we are bringing uniqueness back."
+description = "“ururimi” is Kinyarwanda for “language”.<br>It is also our word for precision, empowerment and one of a kind-ness.<br>Because one word is all we need to tell you how we are bringing uniqueness back."
 
 
 
@@ -127,7 +127,7 @@ subtitle = "*langue"
 
 [languages.fr.about]
 title = "A propos d'ururimi"
-description = "ururimi signifie langue en Kinyarwanda.<br>Pour nous, cela rime également avec précision, prise d'autonomie et originalité.<br>Parce qu’un mot suffit à décrire le caractère unique de notre proposition."
+description = "“ururimi” signifie “langue” en Kinyarwanda.<br>Pour nous, cela rime également avec précision, prise d'autonomie et originalité.<br>Parce qu’un mot suffit à décrire le caractère unique de notre proposition."
 
 [languages.fr.translation]
 title = "Traduction & Interprétariat"
