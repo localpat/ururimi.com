@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "ururimi"
-baseURL = "http://localhost:1313/"
+baseURL = "/"
 theme = "twentyseventeen4hugo"
 name = "Sally Stainier"
 description = "Based in French West Indies, on the beautiful island of Guadeloupe, ururimi offers translation and interpreting services, multilingual training, and multilingual copywriting"
