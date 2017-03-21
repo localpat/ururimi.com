@@ -1,0 +1,32 @@
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
+<meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
+<meta name="robots" content="noindex,follow">
+{{ .Hugo.Generator }}
+
+<title>{{ .Site.Title }}</title>
+
+{{ "<!-- Stylesheets -->" | safeHTML }}
+<link rel="stylesheet" id="twentyseventeen-fonts-css" href="https://fonts.googleapis.com/css?family=Roboto" type="text/css" media="all">
+<link rel="stylesheet" id="twentyseventeen-style-css" href="{{ .Site.BaseURL }}css/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="twentyseventeen-style-css" href="{{ .Site.BaseURL }}css/colors-dark.css" type="text/css" media="all">
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyseventeen-ie8-css'  href='{{ .Site.BaseURL }}css/ie8.css' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 9]>
+<script type='text/javascript' src='{{ .Site.BaseURL }}js/html5.js'></script>
+<![endif]-->
+
+
+<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link href="https://fonts.gstatic.com" crossorigin="" rel="preconnect">
+
+
+<script type="text/javascript" src="{{ .Site.BaseURL }}js/jquery/jquery.js"></script>
+<script type="text/javascript" src="{{ .Site.BaseURL }}js/jquery/jquery-migrate.min.js"></script>
+
+</head>

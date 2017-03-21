@@ -1,0 +1,116 @@
+<html class="js svg background-fixed" lang="en-US">
+
+ {{ partial "head.html" . }}
+
+<body class="home page-template-default page page-id-7 twentyseventeen-front-page has-header-image page-two-column colors-light">
+  <div id="page" class="site">
+
+
+     {{ partial "header.html" . }}
+
+    <div class="site-content-contain">
+ 		   <div id="content" class="site-content">
+        <div id="primary" class="content-area">
+          <main id="main" class="site-main" role="main">
+            <!-- about -->
+            <div id="about"></div>
+            <article class="twentyseventeen-panel  post-7 page type-page status-publish hentry">
+ 	            <div class="panel-content">
+                <div class="wrap">
+                  <header class="entry-header">
+                    <h2 class="entry-title">{{ with .Site.Params.about.title }}{{ . | markdownify }}{{ end }}</h2>
+                  </header><!-- .entry-header -->
+                  <div class="entry-content">
+                    <p>{{ with .Site.Params.about.description }}{{ . | markdownify }}{{ end }}</p>
+                  </div><!-- .entry-content -->
+                </div><!-- .wrap -->
+              </div><!-- .panel-content -->
+            </article><!-- #post-## -->
+
+          <!-- translation & interpreting-->
+            <article id="services" class="twentyseventeen-panel  post-11 page type-page status-publish has-post-thumbnail hentry">
+              <div class="panel-image" style="background-image: url({{ .Site.BaseURL }}img/services.jpg);">
+                <div class="panel-image-prop" style="padding-top: 60%"></div>
+              </div><!-- .panel-image -->
+              <div class="panel-content">
+                <div class="wrap">
+                  <header class="entry-header">
+                    <h2 class="entry-title">{{ with .Site.Params.translation.title }}{{ . | markdownify }}{{ end }}</h2>
+                    <p class="entry-subtitle">{{ with .Site.Params.translation.subtitle }}{{ . | markdownify }}{{ end }}</p>
+                  </header><!-- .entry-header -->
+                  <div class="entry-content">
+                    <p>{{ with .Site.Params.translation.description }}{{ . | markdownify }}{{ end }}</p>
+                    <p class="link-more">
+                      {{ with .Site.Params.translation.endpoint }}{{ . | markdownify }}{{ end }}
+                    </p>
+                  </div><!-- .entry-content -->
+                </div><!-- .wrap -->
+              </div><!-- .panel-content -->
+            </article><!-- #post-## -->
+
+            <!-- training -->
+            <article id="panel2" class="twentyseventeen-panel  post-8 page type-page status-publish has-post-thumbnail hentry">
+              <div class="panel-image" style="background-image: url({{ .Site.BaseURL }}img/multilingual.jpg);">
+                <div class="panel-image-prop" style="padding-top: 60%"></div>
+              </div><!-- .panel-image -->
+              <div class="panel-content">
+                <div class="wrap">
+                  <header class="entry-header">
+                    <h2 class="entry-title">{{ with .Site.Params.training.title }}{{ . | markdownify }}{{ end }}</h2>
+                    <p class="entry-subtitle">{{ with .Site.Params.training.subtitle }}{{ . | markdownify }}{{ end }}</p>
+                  </header><!-- .entry-header -->
+                  <div class="entry-content">
+                    <p>{{ with .Site.Params.training.description }}{{ . | markdownify }}{{ end }}</p>
+                    <p class="link-more">
+                      {{ with .Site.Params.training.endpoint }}{{ . | markdownify }}{{ end }}
+                    </p>
+                  </div><!-- .entry-content -->
+                </div><!-- .wrap -->
+              </div><!-- .panel-content -->
+            </article><!-- #post-## -->
+
+            <!-- copywriting -->
+            <article id="panel3" class="twentyseventeen-panel  post-10 page type-page status-publish has-post-thumbnail hentry">
+              <div class="panel-image" style="background-image: url({{ .Site.BaseURL }}img/copy.jpg);">
+                <div class="panel-image-prop" style="padding-top: 60%"></div>
+              </div><!-- .panel-image -->
+              <div class="panel-content">
+                <div class="wrap">
+                  <header class="entry-header">
+                    <h2 class="entry-title">{{ with .Site.Params.copywriting.title }}{{ . | markdownify }}{{ end }}</h2>
+                    <p class="entry-subtitle">{{ with .Site.Params.copywriting.subtitle }}{{ . | markdownify }}{{ end }}</p>
+                  </header><!-- .entry-header -->
+                  <div class="entry-content">
+                    <p>{{ with .Site.Params.copywriting.description }}{{ . | markdownify }}{{ end }}</p>
+                    <p class="link-more">
+                    {{ with .Site.Params.copywriting.endpoint }}{{ . | markdownify }}{{ end }}
+                    </p>
+                  </div><!-- .entry-content -->
+                </div><!-- .wrap -->
+              </div><!-- .panel-content -->
+            </article><!-- #post-## -->
+
+            <!-- Contact -->
+            <article id="panel4" class="twentyseventeen-panel  post-9 page type-page status-publish has-post-thumbnail hentry">
+              <div class="panel-image" style="background-image: url({{ .Site.BaseURL }}img/contact.jpg);">
+                <div class="panel-image-prop" style="padding-top: 60%"></div>
+              </div><!-- .panel-image -->
+              <div id="contact" class="panel-content">
+                <div class="wrap">
+                  <header class="entry-header">
+                    <h2 class="entry-title">{{ with .Site.Params.Contact.title }}{{ . | markdownify }}{{ end }}</h2>
+                  </header><!-- .entry-header -->
+                  <div class="entry-content">
+                    <p>{{ with .Site.Params.Contact.description }}{{ . | markdownify }}{{ end }}</p>
+                  </div><!-- .entry-content -->
+                </div><!-- .wrap -->
+              </div><!-- .panel-content -->
+            </article><!-- #post-## -->
+          </main><!-- #main -->
+        </div><!-- #primary -->
+      </div><!-- #content -->
+
+      {{ partial "footer.html" . }}
+      {{ partial "js.html" . }}
+  </body>
+</html>

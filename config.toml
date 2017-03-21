@@ -1,0 +1,228 @@
+languageCode = "en-us"
+title = "ururimi"
+baseURL = "http://localhost:1313/"
+theme = "twentyseventeen4hugo"
+name = "Sally Stainier"
+description = "Based in French West Indies, on the beautiful island of Guadeloupe, ururimi offers translation and interpreting services, multilingual training, and multilingual copywriting"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+defaultContentLanguage = "en"
+
+[params]
+# Header section
+[params.header]
+# To change the background image of the hero, replace 'header.jpg' in
+# the 'static/img' folder.
+title = "Ururimi *"
+subtitle = "*language"
+
+
+# About section
+[params.about]
+title = "About ururimi"
+description = "ururimi is Kinyarwanda for language.<br>It is also our word for precision, empowerment and one of a kind-ness.<br>Because one word is all we need to tell you how we are bringing uniqueness back."
+
+
+
+# Services section
+[params.translation]
+title = "Translation & Interpreting"
+subtitle = "More than words; ideas."
+description = "Your message is our Olympic flame : carried with pride and attention.<br>Our key asset? Meeting the Caribbean market demand with acute thematic and linguistic polyvalence."
+endpoint =	"Tell us about your project and get a free quote [now](/#contact)!"
+
+
+[params.training]
+  title = "Multilingual Training"
+  subtitle = "Learn how to learn."
+  description = "When it comes to speaking a language, your ambition becomes our mission : we unlock doors you did not even know existed.<br>Our method? We help build your own recipe for autonomous, lifelong learning. "
+  endpoint = "[Find out more](/#contact) about our approach and enjoy a free diagnostic session!"
+
+[params.copywriting]
+title = "Copywriting"
+subtitle = "Content generation, reloaded."
+description = "Quality copy does make a difference. And we’re here to bring you there.<br>Our added value? Styles and skills that meet your one-time or continuous needs, in multiple languages… at once. "
+endpoint = "[Get in touch](/#contact) and let’s define a plan tailored to your expectations!"
+
+
+[params.contact]
+  enable = true
+  title = "Contact & Location"
+  description = "We currently operate in the Caribbean region with our headquarters in beautiful Guadeloupe (F.W.I.).<br>As you might have guessed, French, English and Spanish constitute our main language combinations — but we can expand our offer to honor special requests.<br>Getting in touch is easy as we are big on responsiveness; whether you already have it all figured out or seek extra guidance, we look forward to working with you!"
+
+# Footer section
+[params.footer]
+  enable = true
+  copyright = "© ururimi 2017 "
+  legal = "SASU with a variable capital of "
+  contactTitle = "Getting in touch"
+  contactDescription = "Getting in touch is as simple as using one of the options below :<br>email : <info@ururimi.com><br>phone : +590 (0)690 134 525"
+  infoTitle = "About this site"
+  infoDescription = "This site was designed and is managed by [Kio Projects](https://github.com/localpat/). It is powered by [Hugo](https://gohugo.io/) and this fully open-sourced project is hosted by [Netlify](https://netlify.com/)."
+
+
+# Languages
+
+[languages]
+
+[languages.en]
+languageName = "English"
+description = ""
+weight = "1"
+
+
+ #[[languages.en.menu.main]]
+# url    = "/#about"
+# name   = "About"
+# weight = 10
+
+# [[languages.en.menu.main]]
+# url    = "/#services"
+# name   = "Services"
+# weight = 20
+
+[[languages.en.menu.main]]
+url    = "http://localhost:1313/"
+name   = "EN"
+weight = 30
+
+[[languages.en.menu.main]]
+url    = "http://localhost:1313/fr"
+name   = "FR"
+weight = 40
+
+[[languages.en.menu.main]]
+url    = "http://localhost:1313/es"
+name   = "ES"
+weight = 50
+
+[languages.fr]
+languageName = "Français"
+description = ""
+weight = "2"
+
+[[languages.fr.menu.main]]
+url    = "http://localhost:1313/"
+name   = "EN"
+weight = 30
+
+[[languages.fr.menu.main]]
+url    = "http://localhost:1313/fr"
+name   = "FR"
+weight = 40
+
+[[languages.fr.menu.main]]
+url    = "http://localhost:1313/es"
+name   = "ES"
+weight = 50
+
+[languages.fr.params]
+
+[languages.fr.header]
+# To change the background image of the hero, replace 'header.jpg' in
+# the 'static/img' folder.
+title = "Ururimi *"
+subtitle = "*langue"
+
+[languages.fr.about]
+title = "A propos d'ururimi"
+description = "ururimi signifie langue en Kinyarwanda.<br>Pour nous, cela rime également avec précision, prise d'autonomie et originalité.<br>Parce qu’un mot suffit à décrire le caractère unique de notre proposition."
+
+[languages.fr.translation]
+title = "Traduction & Interprétariat"
+subtitle = "Au-delà des mots, place aux idées."
+description = "Votre message est notre flamme olympique : portée avec soin et honneur.<br>Notre avantage ? Une polyvalence linguistique et thématique en accord avec les exigences du marché caribéen."
+endpoint =	"Parlez-nous de votre projet et obtenez un devis gratuit dès [maintenant](/fr/#contact)!"
+
+[languages.fr.training]
+  title = "Formation plurilingue"
+  subtitle = "Apprendre… à apprendre."
+  description = "Peu importe la langue ciblée, vos ambitions donnent lieu à notre mission : celle de déverrouiller des portes dont vous ignoriez l’existence.<br>Notre méthode ? Aider à définir une recette qui vous est propre pour un apprentissage autonome et continu."
+  endpoint = "[Renseignez-vous](/fr/#contact) sur notre approche et profitez d’une session de diagnostic offerte!"
+
+[languages.fr.copywriting]
+  title = "Copywriting"
+  subtitle = "La génération de contenus, revisitée."
+  description = "La qualité de vos contenus fait la différence. Et nous pouvons vous l’apporter sur un plateau.<br>Notre valeur ajoutée ? Des styles et compétences au service de vos besoins ponctuels ou réguliers, en plusieurs langues… en même temps. "
+  endpoint = "[Contactez-nous](/fr/#contact) pour définir un plan taillé selon vos attentes!"
+
+
+[languages.fr.contact]
+  enable = true
+  title = "Contact & Localisation"
+  description = "Nous opérons actuellement dans la zone Caraïbes avec pour base la magnifique Guadeloupe (D.O.M.).<br>Comme vous l’aurez sans doute deviné, nos principales combinaisons linguistiques s’articulent autour du français, de l’anglais et de l’espagnol. Nous sommes néanmoins disposés à étendre cet éventail au gré des demandes.<br>Rien de plus simple que de nous contacter tant il nous tient à cœur de vous répondre dans les plus brefs délais ; que votre projet soit déjà bien défini ou nécessite quelques retouches, il nous tarde de vous accompagner!"
+
+[languages.fr.footer]
+  enable = true
+# copyright = "© ururimi 2017 "
+  legal = "SASU à capital variable de "
+  contactTitle = "Nous contacter"
+  contactDescription = "Prendre contact est aussi simple que d'utiliser une des options ci-dessous :<br>email : <info@ururimi.com><br>Téléphone : +590 (0)690 134 525"
+  infoTitle = "A propos du site"
+  infoDescription = "Ce site a été créé par [Kio Projects](https://github.com/localpat/). Il est généré par [Hugo](https://gohugo.io/) ce projet entièrement open-source est hébergé par [Netlify](https://netlify.com/)."
+
+
+
+[languages.es]
+  languageName = "Español"
+  description = ""
+  weight = "3"
+
+  [[languages.fr.menu.main]]
+  url    = "http://localhost:1313/"
+  name   = "EN"
+  weight = 30
+
+  [[languages.fr.menu.main]]
+  url    = "http://localhost:1313/fr"
+  name   = "FR"
+  weight = 40
+
+  [[languages.fr.menu.main]]
+  url    = "http://localhost:1313/es"
+  name   = "ES"
+  weight = 50
+
+[languages.es.params]
+
+[languages.es.header]
+  title = "Ururimi *"
+  subtitle = "*idioma"
+
+[languages.es.about]
+  title = "Sobre ururimi"
+  description = "“ururimi” significa “idioma” en Kinyarwanda.<br>Para nosotros, también significa precisión, empoderamiento y originalidad.<br>Porque una palabra basta para explicar cuanto única nuestra propuesta."
+
+[languages.es.translation]
+  title = "Traducción & Interpretación"
+  subtitle = "Mas allá de las palabras, ideas."
+  description = "Su mensaje es nuestra llama olímpica: la llevamos con cariño y orgullo.<br>¿Nuestra ventaja ? Una polivalencia lingüística y temática conforme con la demanda del mercado caribeño."
+  endpoint =	"Háblenos de su proyecto para obtener una cuota gratis [ya](/es/#contact)."
+
+[languages.es.training]
+  title = "Formación plurilingüe"
+  subtitle = "Aprender… se aprende."
+  description = "Sea cual sea el idioma, su ambición justifica nuestra misión : abrir puertas hasta ahora ocultas.<br>¿Nuestro método?  Ayudarle en crear su receta propia para un aprendizaje autónomo y continuo."
+  endpoint = "Solicite [aquí](/es/#contact) mas amplia información entorno a nuestro enfoque, y ¡disfrute de una sesión diagnóstica gratis!"
+
+[languages.es.copywriting]
+  title = "Copywriting"
+  subtitle = "Una nueva generación de contenidos."
+  description = "La cualidad de sus contenidos marca la diferencia. Y para eso estamos nosotros.<br>¿Nuestro valor añadido? Estilos y competencias al servicio de sus necesidades puntuales o regulares, en varios idiomas a la vez."
+  endpoint = "¡[Contáctenos](/es/#contact) ya para definir un plan hecho a medida de sus exigencias!"
+
+
+[languages.es.contact]
+  enable = true
+  title = "Contacto & Ubicación"
+  description = "Trabajamos en toda la región caribeña y estamos basados en la preciosa isla francesa de Guadalupe.<br>Como lo habrán notado, nuestras principales combinaciones lingüísticas incluyen el francés, el inglés y el español - aunque según haga falta, estamos dispuestos a ampliar nuestro espectro de intervención.<br>Contactarnos queda muy sencillo ya que ¡responder sin demora es nuestro lema! Que tenga un plan bien definido o le hagan falta un par de consejos, ¡estamos impacientes por colaborar en sus proyectos!"
+
+[languages.es.footer]
+  enable = true
+  # copyright = "© ururimi 2017 "
+  legal = "SASU à capital variable de "
+  contactTitle = "Nous contacter"
+  contactDescription = "Contáctenos a través de una de las opciones siguientes :<br>email : <info@ururimi.com><br>Téléphone : +590 (0)690 134 525"
+  infoTitle = "A propos du site"
+  infoDescription = "Página web creada y gestionada con [Kio Projects](https://github.com/localpat/). Generada por [Hugo](https://gohugo.io/) un proyecto de fuente abierta albergada por [Netlify](https://netlify.com/)."
