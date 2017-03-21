@@ -83,17 +83,17 @@ weight = "1"
 # weight = 20
 
 [[languages.en.menu.main]]
-url    = "http://localhost:1313/"
+url    = "https://www.ururimi.com/"
 name   = "EN"
 weight = 30
 
 [[languages.en.menu.main]]
-url    = "http://localhost:1313/fr"
+url    = "https://www.ururimi.com/fr"
 name   = "FR"
 weight = 40
 
 [[languages.en.menu.main]]
-url    = "http://localhost:1313/es"
+url    = "https://www.ururimi.com/es"
 name   = "ES"
 weight = 50
 
@@ -103,17 +103,17 @@ description = ""
 weight = "2"
 
 [[languages.fr.menu.main]]
-url    = "http://localhost:1313/"
+url    = "https://www.ururimi.com/"
 name   = "EN"
 weight = 30
 
 [[languages.fr.menu.main]]
-url    = "http://localhost:1313/fr"
+url    = "https://www.ururimi.com/fr"
 name   = "FR"
 weight = 40
 
 [[languages.fr.menu.main]]
-url    = "http://localhost:1313/es"
+url    = "https://www.ururimi.com/es"
 name   = "ES"
 weight = 50
 
