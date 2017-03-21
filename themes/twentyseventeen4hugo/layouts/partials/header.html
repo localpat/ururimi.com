@@ -29,7 +29,7 @@
             {{- $currentPage := . -}}
             {{ range .Site.Menus.main -}}
             <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page {{ if $currentPage.IsMenuCurrent "main" . }}active current-menu-item menu-item-home{{ end }}">
-              <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+              <a href="{{ .URL }}">{{ .Name }}</a>
             </li>
             {{- end }}
           </ul>

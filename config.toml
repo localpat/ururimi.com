@@ -83,17 +83,17 @@ weight = "1"
 # weight = 20
 
 [[languages.en.menu.main]]
-url    = "https://www.ururimi.com/"
+url    = "/"
 name   = "EN"
 weight = 30
 
 [[languages.en.menu.main]]
-url    = "https://www.ururimi.com/fr"
+url    = "/fr"
 name   = "FR"
 weight = 40
 
 [[languages.en.menu.main]]
-url    = "https://www.ururimi.com/es"
+url    = "/es"
 name   = "ES"
 weight = 50
 
@@ -103,17 +103,17 @@ description = ""
 weight = "2"
 
 [[languages.fr.menu.main]]
-url    = "https://www.ururimi.com/"
+url    = "/"
 name   = "EN"
 weight = 30
 
 [[languages.fr.menu.main]]
-url    = "https://www.ururimi.com/fr"
+url    = "/fr"
 name   = "FR"
 weight = 40
 
 [[languages.fr.menu.main]]
-url    = "https://www.ururimi.com/es"
+url    = "/es"
 name   = "ES"
 weight = 50
 
@@ -153,7 +153,6 @@ endpoint =	"Parlez-nous de votre projet et obtenez un devis **gratuit** dès [ma
 
 [languages.fr.footer]
   enable = true
-# copyright = "© ururimi 2017 "
   legal = "**SASU** à capital variable de "
   contactTitle = "Nous contacter"
   contactDescription = "Prendre contact est aussi simple que d'utiliser une des options ci-dessous :<br>**email** : <info@ururimi.com><br>**Téléphone** : +590 (0)690 134 525"
@@ -168,17 +167,17 @@ endpoint =	"Parlez-nous de votre projet et obtenez un devis **gratuit** dès [ma
   weight = "3"
 
   [[languages.es.menu.main]]
-  url    = "https://www.ururimi.com/"
+  url    = "/"
   name   = "EN"
   weight = 30
 
   [[languages.es.menu.main]]
-  url    = "https://www.ururimi.com/fr"
+  url    = "/fr"
   name   = "FR"
   weight = 40
 
   [[languages.es.menu.main]]
-  url    = "https://www.ururimi.com/es"
+  url    = "/es"
   name   = "ES"
   weight = 50
 
