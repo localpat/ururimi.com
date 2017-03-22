@@ -10,6 +10,9 @@ googleAnalytics = ""
 defaultContentLanguage = "en"
 
 [params]
+
+[blackfriday]
+  hrefTargetBlank = true
 # Header section
 [params.header]
 # To change the background image of the hero, replace 'header.jpg' in
@@ -55,7 +58,7 @@ endpoint = "[Get in touch](/#contact) and let’s define a plan tailored to your
 [params.footer]
   enable = true
   copyright = "© ururimi 2017 "
-  legal = "SASU with a variable capital of "
+  legal = "SASU with variable capital"
   contactTitle = "Getting in touch"
   contactDescription = "Getting in touch is as simple as using one of the options below :<br>email : <info@ururimi.com><br>phone : +590 (0)690 134 525"
   infoTitle = "About this site"
@@ -153,7 +156,7 @@ endpoint =	"Parlez-nous de votre projet et obtenez un devis **gratuit** dès [ma
 
 [languages.fr.footer]
   enable = true
-  legal = "**SASU** à capital variable de "
+  legal = "**SASU** à capital variable"
   contactTitle = "Nous contacter"
   contactDescription = "Prendre contact est aussi simple que d'utiliser une des options ci-dessous :<br>**email** : <info@ururimi.com><br>**Téléphone** : +590 (0)690 134 525"
   infoTitle = "A propos du site"
@@ -218,7 +221,7 @@ endpoint =	"Parlez-nous de votre projet et obtenez un devis **gratuit** dès [ma
 [languages.es.footer]
   enable = true
   # copyright = "© ururimi 2017 "
-  legal = "SASU de capital variable de "
+  legal = "SASU de capital variable"
   contactTitle = "Ponerse en contacto con nosotros"
   contactDescription = "Contáctenos a través de una de las opciones siguientes :<br>**email** : <info@ururimi.com><br>**Telefono** : +590 (0)690 134 525"
   infoTitle = "Sobre el sitio"
