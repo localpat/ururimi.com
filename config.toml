@@ -15,8 +15,7 @@ defaultContentLanguage = "en"
   hrefTargetBlank = true
 # Header section
 [params.header]
-# To change the background image of the hero, replace 'header.jpg' in
-# the 'static/img' folder.
+
 title = "Ururimi *"
 subtitle = "*language"
 
@@ -128,38 +127,38 @@ description = "Votre message est notre flamme olympique : portée avec **soin** 
 endpoint =	"Parlez-nous de votre projet et obtenez un devis **gratuit** dès [maintenant](/fr/#contact)!"
 
 [languages.fr.training]
-  title = "Formation plurilingue"
-  subtitle = "*Apprendre… à apprendre.*"
-  description = "Peu importe la langue ciblée, **vos ambitions** donnent lieu à **notre mission** : celle de déverrouiller des portes dont vous ignoriez l’existence.<br>Notre **méthode** ? Aider à définir une recette qui vous est propre pour un apprentissage autonome et continu."
-  endpoint = "[Renseignez-vous](/fr/#contact) sur notre approche et profitez d’une session de diagnostic **offerte**!"
+title = "Formation plurilingue"
+subtitle = "*Apprendre… à apprendre.*"
+description = "Peu importe la langue ciblée, **vos ambitions** donnent lieu à **notre mission** : celle de déverrouiller des portes dont vous ignoriez l’existence.<br>Notre **méthode** ? Aider à définir une recette qui vous est propre pour un apprentissage autonome et continu."
+endpoint = "[Renseignez-vous](/fr/#contact) sur notre approche et profitez d’une session de diagnostic **offerte**!"
 
 [languages.fr.copywriting]
-  title = "Copywriting"
-  subtitle = "*La génération de contenus, revisitée.*"
-  description = "La qualité de vos contenus **fait la différence**. Et nous pouvons vous l’apporter sur un plateau.<br>Notre **valeur ajoutée** ? Des styles et compétences au service de vos besoins ponctuels ou réguliers, en plusieurs langues… en même temps. "
-  endpoint = "[Contactez-nous](/fr/#contact) pour définir un plan taillé selon vos attentes!"
+title = "Copywriting"
+subtitle = "*La génération de contenus, revisitée.*"
+description = "La qualité de vos contenus **fait la différence**. Et nous pouvons vous l’apporter sur un plateau.<br>Notre **valeur ajoutée** ? Des styles et compétences au service de vos besoins ponctuels ou réguliers, en plusieurs langues… en même temps. "
+endpoint = "[Contactez-nous](/fr/#contact) pour définir un plan taillé selon vos attentes!"
 
 
 [languages.fr.contact]
-  enable = true
-  title = "Contact & Localisation"
-  description = "Nous opérons actuellement dans la zone Caraïbes avec pour base la magnifique **Guadeloupe** (D.O.M.).<br>Comme vous l’aurez sans doute deviné, nos principales **combinaisons linguistiques** s’articulent autour du français, de l’anglais et de l’espagnol. Nous sommes néanmoins disposés à étendre cet éventail au gré des demandes.<br>Rien de plus simple que de nous contacter tant il nous tient à cœur de vous répondre dans les plus brefs délais ; que votre projet soit déjà bien défini ou nécessite quelques retouches, il nous tarde de vous accompagner!"
+enable = true
+title = "Contact & Localisation"
+description = "Nous opérons actuellement dans la zone Caraïbes avec pour base la magnifique **Guadeloupe** (D.O.M.).<br>Comme vous l’aurez sans doute deviné, nos principales **combinaisons linguistiques** s’articulent autour du français, de l’anglais et de l’espagnol. Nous sommes néanmoins disposés à étendre cet éventail au gré des demandes.<br>Rien de plus simple que de nous contacter tant il nous tient à cœur de vous répondre dans les plus brefs délais ; que votre projet soit déjà bien défini ou nécessite quelques retouches, il nous tarde de vous accompagner!"
 
 [languages.fr.footer]
-  enable = true
-  copyright = "© ururimi 2017"
-  legal = "**SASU** à capital variable"
-  contacttitle = "Nous contacter"
-  contactdescription = "Faites-nous part de vos projets via l'une des options suivantes  :<br>**email** : <info@ururimi.com><br>**Téléphone** : +590 (0)690 134 525"
-  infodescriptiontitle = "A propos du site"
-  infodescription = "Ce site a été créé par [Kio Projects](https://github.com/localpat/). Il est généré par [Hugo](https://gohugo.io/) ce projet entièrement open-source est hébergé par [Netlify](https://netlify.com/)."
+enable = true
+copyright = "© ururimi 2017"
+legal = "**SASU** à capital variable"
+contacttitle = "Nous contacter"
+contactdescription = "Faites-nous part de vos projets via l'une des options suivantes  :<br>**email** : <info@ururimi.com><br>**Téléphone** : +590 (0)690 134 525"
+infodescriptiontitle = "A propos du site"
+infodescription = "Ce site a été créé par [Kio Projects](https://github.com/localpat/). Il est généré par [Hugo](https://gohugo.io/) ce projet entièrement open-source est hébergé par [Netlify](https://netlify.com/)."
 
 
 
 [languages.es]
-  languageName = "Español"
-  description = ""
-  weight = "3"
+languageName = "Español"
+description = ""
+weight = "3"
 
   [[languages.es.menu.main]]
   url    = "/"
@@ -179,42 +178,42 @@ endpoint =	"Parlez-nous de votre projet et obtenez un devis **gratuit** dès [ma
 [languages.es.params]
 
 [languages.es.header]
-  title = "Ururimi *"
-  subtitle = "*idioma"
+title = "Ururimi *"
+subtitle = "*idioma"
 
 [languages.es.about]
-  title = "Sobre ururimi"
-  description = "“ururimi” significa **idioma** en Kinyarwanda.<br>Para nosotros, también significa **precisión**, **empoderamiento** y **originalidad**.<br>Porque una palabra basta para explicar cuanto **única** nuestra propuesta."
+title = "Sobre ururimi"
+description = "“ururimi” significa **idioma** en Kinyarwanda.<br>Para nosotros, también significa **precisión**, **empoderamiento** y **originalidad**.<br>Porque una palabra basta para explicar cuanto **única** nuestra propuesta."
 
 [languages.es.translation]
-  title = "Traducción & Interpretación"
-  subtitle = "*Mas allá de las palabras, ideas.*"
-  description = "Su mensaje es nuestra llama olímpica: la llevamos con **cariño** y **orgullo**.<br>¿Nuestra **ventaja** ? Una polivalencia lingüística y temática conforme con la demanda del mercado caribeño."
-  endpoint =	"Háblenos de su proyecto para obtener una cuota **gratis** [ya](/es/#contact)."
+title = "Traducción & Interpretación"
+subtitle = "*Mas allá de las palabras, ideas.*"
+description = "Su mensaje es nuestra llama olímpica: la llevamos con **cariño** y **orgullo**.<br>¿Nuestra **ventaja** ? Una polivalencia lingüística y temática conforme con la demanda del mercado caribeño."
+endpoint =	"Háblenos de su proyecto para obtener una cuota **gratis** [ya](/es/#contact)."
 
 [languages.es.training]
-  title = "Formación plurilingüe"
-  subtitle = "*Aprender… se aprende.*"
-  description = "Sea cual sea el idioma, su **ambición** justifica **nuestra misión** : abrir puertas hasta ahora ocultas.<br>¿Nuestro **método**?  Ayudarle en crear su receta propia para un aprendizaje autónomo y continuo."
-  endpoint = "Solicite [aquí](/es/#contact) mas amplia información entorno a nuestro enfoque, y ¡disfrute de una sesión diagnóstica **gratis**!"
+title = "Formación plurilingüe"
+subtitle = "*Aprender… se aprende.*"
+description = "Sea cual sea el idioma, su **ambición** justifica **nuestra misión** : abrir puertas hasta ahora ocultas.<br>¿Nuestro **método**?  Ayudarle en crear su receta propia para un aprendizaje autónomo y continuo."
+endpoint = "Solicite [aquí](/es/#contact) mas amplia información entorno a nuestro enfoque, y ¡disfrute de una sesión diagnóstica **gratis**!"
 
 [languages.es.copywriting]
-  title = "Copywriting"
-  subtitle = "*Una nueva generación de contenidos.*"
-  description = "La cualidad de sus contenidos **marca la diferencia**. Y para eso estamos nosotros.<br>¿Nuestro **valor añadido**? Estilos y competencias al servicio de sus necesidades puntuales o regulares, en varios idiomas a la vez."
-  endpoint = "¡[Contáctenos](/es/#contact) ya para definir un plan hecho a medida de sus exigencias!"
+title = "Copywriting"
+subtitle = "*Una nueva generación de contenidos.*"
+description = "La cualidad de sus contenidos **marca la diferencia**. Y para eso estamos nosotros.<br>¿Nuestro **valor añadido**? Estilos y competencias al servicio de sus necesidades puntuales o regulares, en varios idiomas a la vez."
+endpoint = "¡[Contáctenos](/es/#contact) ya para definir un plan hecho a medida de sus exigencias!"
 
 
 [languages.es.contact]
-  enable = true
-  title = "Contacto & Ubicación"
-  description = "Trabajamos en toda la región caribeña y estamos basados en la preciosa isla francesa de **Guadalupe**.<br>Como lo habrán notado, nuestras principales **combinaciones lingüísticas** incluyen el francés, el inglés y el español - aunque según haga falta, estamos dispuestos a ampliar nuestro espectro de intervención.<br>Contactarnos queda muy sencillo ya que ¡responder sin demora es nuestro lema! Que tenga un plan bien definido o le hagan falta un par de consejos, ¡estamos impacientes por colaborar en sus proyectos!"
+enable = true
+title = "Contacto & Ubicación"
+description = "Trabajamos en toda la región caribeña y estamos basados en la preciosa isla francesa de **Guadalupe**.<br>Como lo habrán notado, nuestras principales **combinaciones lingüísticas** incluyen el francés, el inglés y el español - aunque según haga falta, estamos dispuestos a ampliar nuestro espectro de intervención.<br>Contactarnos queda muy sencillo ya que ¡responder sin demora es nuestro lema! Que tenga un plan bien definido o le hagan falta un par de consejos, ¡estamos impacientes por colaborar en sus proyectos!"
 
 [languages.es.footer]
-  enable = true
-  copyright = "© ururimi 2017"
-  legal = "SASU de capital variable"
-  contacttitle = "Contactarnos"
-  contactdescription = "Contáctenos a través de una de las opciones siguientes :<br>**email** : <info@ururimi.com><br>**Teléfono** : +590 (0)690 134 525"
-  infodescriptiontitle = "Sobre el sitio"
-  infodescription = "Página web creada y gestionada con [Kio Projects](https://github.com/localpat/). Generada por [Hugo](https://gohugo.io/) un proyecto de fuente abierta albergada por [Netlify](https://netlify.com/)."
+enable = true
+copyright = "© ururimi 2017"
+legal = "SASU de capital variable"
+contacttitle = "Contactarnos"
+contactdescription = "Contáctenos a través de una de las opciones siguientes :<br>**email** : <info@ururimi.com><br>**Teléfono** : +590 (0)690 134 525"
+infodescriptiontitle = "Sobre el sitio"
+infodescription = "Página web creada y gestionada con [Kio Projects](https://github.com/localpat/). Generada por [Hugo](https://gohugo.io/) un proyecto de fuente abierta albergada por [Netlify](https://netlify.com/)."
