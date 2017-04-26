@@ -5,7 +5,7 @@
         <section id="text-4" class="widget widget_text">
           <h2 class="widget-title">URURIMI</h2>
           <div class="textwidget">
-            <p>{{ with .Site.Params.footer.legal }}{{ . | markdownify }}{{ end }}
+            <p>{{ with .Site.Params.Footer.legal }}{{ . | markdownify }}{{ end }}
 
                 <br>Route de la Plaine Simonière
                 <br>97118 Saint-François
@@ -27,7 +27,7 @@
       </div>
       <div class="widget-column footer-widget-2">
 				<section id="text-5" class="widget widget_text">
-          <h2 class="widget-title">{{ with .Site.Params.Footer.infotitle }}{{ . | markdownify }}{{ end }}</h2>
+          <h2 class="widget-title">{{ with .Site.Params.Footer.infodescriptiontitle }}{{ . | markdownify }}{{ end }}</h2>
           <div class="textwidget">
             <p>{{ with .Site.Params.Footer.infodescription }}{{ . | markdownify }}{{ end }}</p>
           </div>

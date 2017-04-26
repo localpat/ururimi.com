@@ -59,10 +59,10 @@ endpoint = "[Get in touch](/#contact) and let’s define a plan tailored to your
   enable = true
   copyright = "© ururimi 2017"
   legal = "SASU"
-  contactTitle = "Getting in touch"
-  contactDescription = "Getting in touch is as simple as using one of the options below :<br>email : <info@ururimi.com><br>phone : +590 (0)690 134 525"
-  infoTitle = "About this site"
-  infoDescription = "This site was designed and is managed by [Kio Projects](https://github.com/localpat/). It is powered by [Hugo](https://gohugo.io/) and this fully open-sourced project is hosted by [Netlify](https://netlify.com/)."
+  contacttitle = "Getting in touch"
+  contactdescription = "Getting in touch is as simple as using one of the options below :<br>email : <info@ururimi.com><br>phone : +590 (0)690 134 525"
+  infodescriptiontitle = "About this site"
+  infodescription = "This site was designed and is managed by [Kio Projects](https://github.com/localpat/). It is powered by [Hugo](https://gohugo.io/) and this fully open-sourced project is hosted by [Netlify](https://netlify.com/)."
 
 
 # Languages
@@ -75,15 +75,6 @@ description = ""
 weight = "1"
 
 
- #[[languages.en.menu.main]]
-# url    = "/#about"
-# name   = "About"
-# weight = 10
-
-# [[languages.en.menu.main]]
-# url    = "/#services"
-# name   = "Services"
-# weight = 20
 
 [[languages.en.menu.main]]
 url    = "/"
@@ -158,10 +149,10 @@ endpoint =	"Parlez-nous de votre projet et obtenez un devis **gratuit** dès [ma
   enable = true
   copyright = "© ururimi 2017"
   legal = "**SASU** à capital variable"
-  contactTitle = "Nous contacter"
-  contactDescription = "Faites-nous part de vos projets via l'une des options suivantes  :<br>**email** : <info@ururimi.com><br>**Téléphone** : +590 (0)690 134 525"
-  infoTitle = "A propos du site"
-  infoDescription = "Ce site a été créé par [Kio Projects](https://github.com/localpat/). Il est généré par [Hugo](https://gohugo.io/) ce projet entièrement open-source est hébergé par [Netlify](https://netlify.com/)."
+  contacttitle = "Nous contacter"
+  contactdescription = "Faites-nous part de vos projets via l'une des options suivantes  :<br>**email** : <info@ururimi.com><br>**Téléphone** : +590 (0)690 134 525"
+  infodescriptiontitle = "A propos du site"
+  infodescription = "Ce site a été créé par [Kio Projects](https://github.com/localpat/). Il est généré par [Hugo](https://gohugo.io/) ce projet entièrement open-source est hébergé par [Netlify](https://netlify.com/)."
 
 
 
@@ -223,7 +214,7 @@ endpoint =	"Parlez-nous de votre projet et obtenez un devis **gratuit** dès [ma
   enable = true
   copyright = "© ururimi 2017"
   legal = "SASU de capital variable"
-  contactTitle = "Contactarnos"
-  contactDescription = "Contáctenos a través de una de las opciones siguientes :<br>**email** : <info@ururimi.com><br>**Teléfono** : +590 (0)690 134 525"
-  infoTitle = "Sobre el sitio"
-  infoDescription = "Página web creada y gestionada con [Kio Projects](https://github.com/localpat/). Generada por [Hugo](https://gohugo.io/) un proyecto de fuente abierta albergada por [Netlify](https://netlify.com/)."
+  contacttitle = "Contactarnos"
+  contactdescription = "Contáctenos a través de una de las opciones siguientes :<br>**email** : <info@ururimi.com><br>**Teléfono** : +590 (0)690 134 525"
+  infodescriptiontitle = "Sobre el sitio"
+  infodescription = "Página web creada y gestionada con [Kio Projects](https://github.com/localpat/). Generada por [Hugo](https://gohugo.io/) un proyecto de fuente abierta albergada por [Netlify](https://netlify.com/)."
