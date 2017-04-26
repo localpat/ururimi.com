@@ -29,6 +29,7 @@ description = "“ururimi” is Kinyarwanda for **language**.<br>It is also our 
 
 # Services section
 [params.translation]
+img = "img/services.jpg"
 title = "Translation & Interpreting"
 subtitle = "*More than words; ideas.*"
 description = "Your message is our Olympic flame : carried with **pride** and **attention**.<br>Our key asset? Meeting the Caribbean market demand with acute thematic and linguistic **polyvalence**."
@@ -121,6 +122,7 @@ title = "A propos d'ururimi"
 description = "“ururimi” signifie **langue** en Kinyarwanda.<br>Pour nous, cela rime également avec précision, prise d'autonomie et originalité.<br>Parce qu’un mot suffit à décrire le caractère **unique** de notre proposition."
 
 [languages.fr.translation]
+img = "img/services.jpg"
 title = "Traduction & Interprétariat"
 subtitle = "*Au-delà des mots, place aux idées.*"
 description = "Votre message est notre flamme olympique : portée avec **soin** et **honneur**.<br>Notre avantage ? Une polyvalence linguistique et thématique en accord avec les exigences du marché caribéen."
@@ -186,6 +188,7 @@ title = "Sobre ururimi"
 description = "“ururimi” significa **idioma** en Kinyarwanda.<br>Para nosotros, también significa **precisión**, **empoderamiento** y **originalidad**.<br>Porque una palabra basta para explicar cuanto **única** nuestra propuesta."
 
 [languages.es.translation]
+img = "img/servicios.jpg"
 title = "Traducción & Interpretación"
 subtitle = "*Mas allá de las palabras, ideas.*"
 description = "Su mensaje es nuestra llama olímpica: la llevamos con **cariño** y **orgullo**.<br>¿Nuestra **ventaja** ? Una polivalencia lingüística y temática conforme con la demanda del mercado caribeño."
